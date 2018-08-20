@@ -56,7 +56,7 @@ yarn add vanillatop
 </html>
 ```
 
-- Add your button with this structure.
+- Add your link with this structure.
 
 ```html
 <a href="#" class="vanillatop"></a>
