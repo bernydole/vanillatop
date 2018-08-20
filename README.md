@@ -13,13 +13,13 @@ V 1.0.0 - Initial version
 
 ### Features
 
-- Extremely lightweight (1KB after gzip and minify)
-- Responsive
-- Cross Browser Compatible (work smooth in any modern browser)
-- Scss file to tweak the design to your needs
-- Predefined options that garanties a smooth functioning
-- JQuery independant
-- Auto hide button on top of webpage
+-   Extremely lightweight (1KB after gzip and minify)
+-   Responsive
+-   Cross Browser Compatible (work smooth in any modern browser)
+-   Scss file to tweak the design to your needs
+-   Predefined options that garanties a smooth functioning
+-   JQuery independant
+-   Auto hide button on top of webpage
 
 ## Download
 
@@ -41,8 +41,8 @@ yarn add vanillatop
 
 ## Installation
 
-- Download **vanillatop.min.js** and **vanillatop.min.css**.
-- Link them to your html page.
+-   Download **vanillatop.min.js** and **vanillatop.min.css**.
+-   Link them to your html page.
 
 ```html
 <html>
@@ -56,7 +56,7 @@ yarn add vanillatop
 </html>
 ```
 
-- Add your link with this structure.
+-   Add your link with this structure.
 
 ```html
 <a href="#" class="vanillatop"></a>
@@ -68,7 +68,7 @@ yarn add vanillatop
 
 The plugin has an `scss` style sheet file that you can modify to adapt to your needs.
 
-`vanillatop.scss`
+`lib/vanillatop.scss`
 
 ## Additional topics
 
