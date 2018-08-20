@@ -2,7 +2,7 @@
   "name": "vanillatop",
   "version": "1.0.0",
   "license": "MIT",
-  "description": "Tiny plugin in vanilla javascript to animate scrolling to the top of the page.",
+  "description": "Lightweight plugin in vanilla javascript to animate scrolling to the top of the page.",
   "homepage": "https://github.com/bernydole/vanillatop#readme",
   "main": "vanillatop.js",
   "scripts": {
@@ -20,11 +20,15 @@
   "keywords": [
     "scroll up",
     "to the top",
-    "tiny size",
+    "lightweight",
+    "responsive",
     "plugin",
     "scroll",
     "vanilla",
-    "javascript"
+    "javascript",
+    "css",
+    "scss",
+    "sass"
   ],
   "bugs": {
     "url": "https://github.com/bernydole/vanillatop/issues",
