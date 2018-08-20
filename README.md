@@ -1,17 +1,25 @@
 # Vanillatop
 
-Tiny plugin in vanilla javascript to animate scrolling to the top of the page.
+![LICENSE MIT](https://img.shields.io/npm/l/vanillatop.svg)
+![npm version](https://img.shields.io/npm/v/vanillatop.svg)
+
+Lightweight plugin in vanilla javascript to animate scrolling to the top of the page.
+
+![Vanillatop](https://www.russianconcept.ch/cloud/github/vanillatop/img/vanillatop.png)
 
 ### Changelog
 
-V 1.0.0 -  Initial version
+V 1.0.0 - Initial version
 
-### Key facts
+### Features
 
--   Tiny files size. Js zipped : 0.55 KB. Css zipped : 0.6 KB.
--   Scss file to tweak the design to your needs.
--   Predefined options that garanties a smooth functionment.
--   JQuery independant.
+- Extremely lightweight (1KB after gzip and minify)
+- Responsive
+- Cross Browser Compatible (work smooth in any modern browser)
+- Scss file to tweak the design to your needs
+- Predefined options that garanties a smooth functioning
+- JQuery independant
+- Auto hide button on top of webpage
 
 ## Download
 
@@ -33,8 +41,8 @@ yarn add vanillatop
 
 ## Installation
 
--   Download **vanillatop.min.js** and **vanillatop.min.css**.
--   Link them to your html page.
+- Download **vanillatop.min.js** and **vanillatop.min.css**.
+- Link them to your html page.
 
 ```html
 <html>
@@ -48,7 +56,7 @@ yarn add vanillatop
 </html>
 ```
 
--   Add your button with this structure.
+- Add your button with this structure.
 
 ```html
 <a href="#" class="vanillatop"></a>
@@ -78,4 +86,4 @@ Vanillatop adheres to [Semantic Versioning](https://semver.org/).
 
 ### Licence
 
-Vanillatop is released under the [MIT licence](https://opensource.org/licenses/MIT).
+This plugin is open-sourced software licensed under the [MIT licence](https://opensource.org/licenses/MIT) and is distributed free of charge.
