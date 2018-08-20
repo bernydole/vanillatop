@@ -1,0 +1,59 @@
+// @package    vanillatop
+// @version    v1.0.0
+// @author     Bernard Collet
+// @license    MIT License
+// @link       https://github.com/bernydole/vanillatop
+//
+$vanillatop-background: #1c86f2;
+$vanillatop-color: #fff;
+$vanillatop-size: 40px;
+
+.vanillatop {
+  background-color: $vanillatop-background;
+  border-radius: 50%;
+  bottom: 40px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12), 0 3px 1px -2px rgba(0, 0, 0, .2);
+  display: block;
+  height: $vanillatop-size;
+  line-height: $vanillatop-size;
+  position: fixed;
+  right: 10px;
+  text-align: center;
+  transform: translateX(120px);
+  transition: 1s all;
+  vertical-align: middle;
+  width: $vanillatop-size;
+  z-index: 9999;
+
+  &::before {
+    color: $vanillatop-color;
+    content: '▲';
+    font-size: 120%;
+  }
+
+  &:active,
+  &:focus,
+  &:hover,
+  &:visited {
+    text-decoration: none;
+  }
+
+  &:hover {
+    background-color: lighten($vanillatop-background, 6%);
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, .14), 0 1px 7px 0 rgba(0, 0, 0, .12), 0 3px 1px -1px rgba(0, 0, 0, .2);
+  }
+
+  @media only screen and (min-width: 768px) {
+    bottom: 20px;
+    right: 20px;
+  }
+
+  @media only screen and (min-width: 1024px) {
+    bottom: 30px;
+    height: $vanillatop-size + 10px;
+    line-height: $vanillatop-size + 10px;
+    right: 30px;
+    width: $vanillatop-size + 10px;
+  }
+
+}
