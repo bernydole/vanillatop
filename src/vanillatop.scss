@@ -7,20 +7,22 @@
 // @license    MIT <https://opensource.org/licenses/MIT>
 // @link       https://github.com/bernydole/vanillatop
 //
-$vanillatop-background: #1c86f2;
-$vanillatop-color: #fff;
-$vanillatop-size: 40px;
+$vanillatop-background: #1c86f2; //color of the button
+$vanillatop-color: #fff; //color of the text in the button
+$vanillatop-size: 40px; //size of the button
+$vanillatop-position-right: 10px; //position from the right border of the screen
+$vanillatop-position-bottom: 40px; //position from the bottom of the screen
 
 .vanillatop {
   background-color: $vanillatop-background;
   border-radius: 50%;
-  bottom: 40px;
+  bottom: $vanillatop-position-bottom;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12), 0 3px 1px -2px rgba(0, 0, 0, .2);
   display: block;
   height: $vanillatop-size;
   line-height: $vanillatop-size;
   position: fixed;
-  right: 10px;
+  right: $vanillatop-position-right;
   text-align: center;
   transform: translateX(120px);
   transition: 1s all;
@@ -47,15 +49,15 @@ $vanillatop-size: 40px;
   }
 
   @media only screen and (min-width: 768px) {
-    bottom: 20px;
-    right: 20px;
+    bottom: $vanillatop-position-bottom - 20px;
+    right: $vanillatop-position-right + 10px;
   }
 
   @media only screen and (min-width: 1024px) {
-    bottom: 30px;
+    bottom: $vanillatop-position-bottom - 10px;
     height: $vanillatop-size + 10px;
     line-height: $vanillatop-size + 10px;
-    right: 30px;
+    right: $vanillatop-position-right + 20px;
     width: $vanillatop-size + 10px;
   }
 
