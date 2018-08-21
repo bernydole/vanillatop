@@ -7,11 +7,11 @@
 // @license    MIT <https://opensource.org/licenses/MIT>
 // @link       https://github.com/bernydole/vanillatop
 //
-$vanillatop-background: #1c86f2; //color of the button
-$vanillatop-color: #fff; //color of the text in the button
-$vanillatop-size: 40px; //size of the button
-$vanillatop-position-right: 10px; //position from the right border of the screen
-$vanillatop-position-bottom: 40px; //position from the bottom of the screen
+$vanillatop-background: #1c86f2 !default; //color of the button
+$vanillatop-color: #fff !default; //color of the text in the button
+$vanillatop-size: 40px !default; //size of the button
+$vanillatop-position-right: 10px !default; //position from the right border of the screen
+$vanillatop-position-bottom: 40px !default; //position from the bottom of the screen
 
 .vanillatop {
   background-color: $vanillatop-background;
