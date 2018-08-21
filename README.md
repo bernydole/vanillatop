@@ -24,20 +24,21 @@ V 1.0.0 - Initial version
 
 ## Download
 
-Download directly from github and install it to your site:
+Download directly from github or unpkg and install it to your site:
 
 <https://github.com/bernydole/vanillatop>
 
-or
+or via npm:
 
 ```bash
 npm install vanillatop
 ```
 
-or
+or as external files without having to download and host them:
 
-```bash
-yarn add vanillatop
+```html
+<link rel="stylesheet" href="https://unpkg.com/vanillatop/dist/vanillatop.min.css">
+<script src="https://unpkg.com/vanillatop/dist/vanillatop.min.js"></script>
 ```
 
 ## Installation
@@ -49,12 +50,12 @@ yarn add vanillatop
 ```html
 <html>
 	<head>
-		<link type="text/css" rel="stylesheet" href="dist/vanillatop.min.css" />
+		<link rel="stylesheet" href="https://unpkg.com/vanillatop/dist/vanillatop.min.css">
 	</head>
 	<body>
 		<!-- Your HTML content -->
 		<a href="#" class="vanillatop"></a>
-		<script src="dist/vanillatop.min.js"></script>
+		<script src="https://unpkg.com/vanillatop/dist/vanillatop.min.js"></script>
 	</body>
 </html>
 ```
