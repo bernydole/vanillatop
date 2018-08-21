@@ -1,17 +1,10 @@
 {
   "name": "vanillatop",
   "version": "1.0.0",
-  "license": "MIT",
   "description": "Lightweight plugin in vanilla javascript to animate scrolling to the top of the page.",
-  "homepage": "https://github.com/bernydole/vanillatop#readme",
   "main": "vanillatop.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": {
-    "name": "Bernard Collet",
-    "email": "webmaster@russianconcept.com",
-    "url": "https://russianconcept.com"
   },
   "repository": {
     "type": "git",
@@ -21,6 +14,8 @@
     "scroll up",
     "to the top",
     "lightweight",
+    "small",
+    "tiny",
     "responsive",
     "plugin",
     "scroll",
@@ -30,6 +25,13 @@
     "scss",
     "sass"
   ],
+  "author": {
+    "name": "Bernard Collet",
+    "email": "webmaster@russianconcept.com",
+    "url": "https://russianconcept.com"
+  },
+  "homepage": "https://github.com/bernydole/vanillatop#readme",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/bernydole/vanillatop/issues",
     "email": "webmaster@russianconcept.com"
