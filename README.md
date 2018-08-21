@@ -1,8 +1,8 @@
 # Vanillatop
 
 ![LICENSE MIT](https://img.shields.io/npm/l/vanillatop.svg)
-![npm version](https://img.shields.io/npm/v/vanillatop.svg)
-![npm downloads](https://img.shields.io/npm/dt/vanillatop.svg)
+![version](https://img.shields.io/npm/v/vanillatop.svg)
+![downloads](https://img.shields.io/npm/dt/vanillatop.svg)
 
 Lightweight plugin in vanilla javascript to animate scrolling to the top of the page.
 
@@ -44,6 +44,7 @@ yarn add vanillatop
 
 -   Download **vanillatop.min.js** and **vanillatop.min.css**.
 -   Link them to your html page.
+-   Add your link whith the class `vanillatop` wherewer you want inside `<body>` tags.
 
 ```html
 <html>
@@ -52,15 +53,10 @@ yarn add vanillatop
 	</head>
 	<body>
 		<!-- Your HTML content -->
+		<a href="#" class="vanillatop"></a>
 		<script src="dist/vanillatop.min.js"></script>
 	</body>
 </html>
-```
-
--   Add your link with this structure.
-
-```html
-<a href="#" class="vanillatop"></a>
 ```
 
 ## Customization
