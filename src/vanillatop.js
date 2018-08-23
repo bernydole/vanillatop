@@ -41,7 +41,6 @@
       }
     }
 
-    anchorToTop.setAttribute("style", "transform: translateX(120px);");
     anchorToTop.addEventListener('click', function () {
       (!window.requestAnimationFrame) ? window.scrollTo(0, 0): scrollToTop(scrollDuration);
     });
