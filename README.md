@@ -25,7 +25,7 @@ V 1.0.0 - Initial version
 
 ## Download
 
-Download directly from github or unpkg and install it to your site:
+Download directly from github and install it to your site:
 
 <https://github.com/bernydole/vanillatop>
 
@@ -35,7 +35,7 @@ or via npm:
 npm install vanillatop
 ```
 
-or as external files without having to download and host them:
+or as external files from unpkg without having to download and host them:
 
 ```html
 <link rel="stylesheet" href="https://unpkg.com/vanillatop/dist/vanillatop.min.css">
