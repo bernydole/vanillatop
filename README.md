@@ -3,6 +3,7 @@
 ![LICENSE MIT](https://img.shields.io/npm/l/vanillatop.svg)
 ![version](https://img.shields.io/npm/v/vanillatop.svg)
 ![downloads](https://img.shields.io/npm/dt/vanillatop.svg)
+![dependencies](https://david-dm.org/bernydole/vanillatop.svg)
 
 Lightweight plugin in vanilla javascript to animate scrolling to the top of the page.
 
