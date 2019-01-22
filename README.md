@@ -57,7 +57,7 @@ or as external files from unpkg without having to download and host them:
 	</head>
 	<body>
 		<!-- Your HTML content -->
-		<a href="#" class="vanillatop"></a>
+		<a href="#!" class="vanillatop"></a>
 		<script src="https://unpkg.com/vanillatop/dist/vanillatop.min.js"></script>
 	</body>
 </html>
