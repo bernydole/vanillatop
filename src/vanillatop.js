@@ -20,7 +20,7 @@
       function scroll() {
         Math.easeInOutQuad = function (t) {
           return t < 0.5 ? 2 * t * t : -1 + (4 - 2 * t) * t;
-        }
+        };
         var time = Math.min(1, ((Math.floor(Date.now()) - startTime) / duration));
         window.scroll(0, Math.ceil((Math.easeInOutQuad(time) * (0 - start)) + start));
         if (window.pageYOffset === 0) {
