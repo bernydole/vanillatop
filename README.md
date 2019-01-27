@@ -25,6 +25,13 @@ Lightweight plugin in vanilla javascript to animate scrolling to the top of the 
 -   JQuery independant
 -   Auto hide button on top of webpage
 
+### Examples
+
+Vanillatop is in use in theses sites:
+
+-   <https://www.russianconcept.com>
+-   <https://www.apelsin.ch>
+
 ## Download
 
 Download directly from github and install it to your site:
