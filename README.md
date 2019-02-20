@@ -11,7 +11,7 @@ Lightweight plugin in vanilla javascript to animate scrolling to the top of the 
 
 ### Changelog
 
--   V 1.0.3 - Add scss include file
+-   V 1.0.3 - add scss include file
 -   V 1.0.2 - Css anchor modification
 -   V 1.0.1 - Readme update
 -   V 1.0.0 - Initial version
