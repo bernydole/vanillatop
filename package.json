@@ -1,6 +1,6 @@
 {
   "name": "vanillatop",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Lightweight plugin in vanilla javascript to animate scrolling to the top of the page.",
   "main": "./dist/vanillatop.min.js",
   "scripts": {
