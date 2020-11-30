@@ -23,9 +23,6 @@
         };
         var time = Math.min(1, ((Math.floor(Date.now()) - startTime) / duration));
         window.scroll(0, Math.ceil((Math.easeInOutQuad(time) * (0 - start)) + start));
-        if (window.pageYOffset === 0) {
-          callback();
-        }
         requestAnimationFrame(scroll);
       }
       scroll();
