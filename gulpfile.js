@@ -1,3 +1,12 @@
+// Vanillatop : Lightweight plugin in vanilla javascript to animate scrolling to the top of the page.
+//
+// @package    vanillatop
+// @version    v1.0.5
+// @author     Bernard Collet <webmaster@russianconcept.com>
+// @copyright (c) 2019 Bernard Collet
+// @license    MIT <https://opensource.org/licenses/MIT>
+// @link       https://github.com/bernydole/vanillatop
+//
 "use strict";
 const { src, dest, series, watch } = require("gulp");
 const sass = require("gulp-sass")(require("sass"));
