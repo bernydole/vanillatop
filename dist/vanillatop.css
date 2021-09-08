@@ -12,7 +12,6 @@ a.vanillatop {
   text-align: center;
   transform: translateX(120px);
   transition: 1s all;
-  vertical-align: middle;
   width: 40px;
   z-index: 9999;
 }
