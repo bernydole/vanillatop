@@ -1,7 +1,7 @@
 // Vanillatop : Lightweight plugin in vanilla javascript to animate scrolling to the top of the page.
 //
 // @package    vanillatop
-// @version    v1.0.3
+// @version    v1.0.5
 // @author     Bernard Collet <webmaster@russianconcept.com>
 // @copyright (c) 2019 Bernard Collet
 // @license    MIT <https://opensource.org/licenses/MIT>
@@ -11,7 +11,7 @@
   document.addEventListener("DOMContentLoaded", function () {
     var anchorToTop = document.querySelector('.vanillatop'),
       offset = 280, // browser window scroll (in pixels) after which the "back to top" link is shown
-      scrollDuration = 900;
+      scrollDuration = 700;
 
     function scrollToTop(duration) {
       var start = window.pageYOffset,

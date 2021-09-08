@@ -1,8 +1,8 @@
 {
   "name": "vanillatop",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Lightweight plugin in vanilla javascript to animate scrolling to the top of the page.",
-  "main": "./dist/vanillatop.min.js",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -35,5 +35,13 @@
   "bugs": {
     "url": "https://github.com/bernydole/vanillatop/issues",
     "email": "webmaster@russianconcept.com"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.0.0",
+    "gulp-uglify": "^3.0.2",
+    "sass": "^1.35.1"
   }
 }
